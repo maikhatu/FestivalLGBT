@@ -1,0 +1,356 @@
+@charset "UTF-8";
+/* CSS Document */
+html {
+  scroll-behavior: smooth
+}
+.container1 {
+  width: 80%;
+  margin: 0;
+  padding: 0
+}
+.thanh {
+  width: 100%;
+  height: 30px;
+  margin: 0;
+  background-color: #E9E9E9
+}
+header {
+  width: 100%;
+  min-height: 100px;
+  background-color: #0E0D0D;
+  margin-top: 0px
+}
+.logo {
+  width: 200px;
+  height: auto
+}
+.menu1 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex
+}
+.menu1 ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 30px;
+}
+.menu1 ul li a:hover {
+  color: #F2B136
+}
+.menu2 ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex
+}
+.menu2 ul li a {
+  text-decoration: none;
+  color: white;
+  padding: 20px;
+}
+.menu2 ul li a:hover {
+  color: #F2B136
+}
+.icon-header {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
+.icon-header a i {
+  color: white;
+  padding: 10px;
+}
+.icon-header a i:hover {
+  color: #F2B136
+}
+.login {
+  border: 1px solid #FFFFFF;
+  color: white;
+  padding: 5px;
+  width: 100px;
+  height: 40px;
+  border-radius: 30px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 24px;
+  margin-left: 10px
+}
+.login:hover {
+  background-color: #F2B136;
+  color: #1A1A1A
+}
+#slide .owl-dots {
+  position: absolute;
+  bottom: 10px;
+  left: 45%;
+}
+#slide .owl-dots .owl-dot span {
+  width: 12px;
+  height: 12px;
+}
+#slide .owl-nav {
+  position: absolute;
+  left: 0px;
+  top: 40%;
+  width: 100%;
+}
+#slide .owl-nav [class*='owl-'] {
+  font-size: 60px; /*background:rgba(255,255,255,.5);border:1px solid #fff; */ color: white
+}
+#slide .owl-nav .owl-next {
+  position: absolute;
+  right: 5%;
+}
+#slide .owl-nav .owl-prev {
+  position: absolute;
+  left: 5%;
+}
+#slide .owl-nav [class*='owl-']:hover {
+  background: none;
+  border: none;
+  color: white;
+  text-decoration: none;
+}
+#hoatdong {
+  width: 100%;
+  min-height: 500px;
+  margin: 0;
+  padding-top: 40px;
+  background-color: #0E0D0D;
+}
+.text-trang {
+  color: #E9E9E9
+}
+.text-den {
+  color: #0E0D0D
+}
+.text-vang {
+  color: #F2B136
+}
+.khunghoatdong {
+  width: 100%;
+  height: 250px;
+  margin: 0px
+}
+.khungtext {
+  width: 100%;
+  min-height: 249px;
+  background-color: #E9E9E9;
+  margin: 0px;
+  padding: 15px;
+  text-align: center
+}
+#solieu {
+  width: 100%;
+  height: 800px;
+  margin: 0;
+  background-color: #0E0D0D;
+  padding-top: 40px;
+  text-align: center
+}
+.container-bosung {
+  width: 60%;
+  margin: 0 auto
+}
+.mxh {
+  width: 70px;
+  height: auto;
+  text-align: center
+}
+.logone {
+  width: 120px;
+  height: auto;
+  margin: 0
+}
+#ticket {
+  width: 100%;
+  min-height: 700px;
+  background-image: url("../IMG/thanhngangve.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin: 0;
+  padding-top: 30px
+}
+.hangve {
+  border: 2px solid #2D2D2D;
+  width: 100%;
+  height: 440px;
+  margin: 10px;
+  padding: 30px;
+  box-shadow: 20px 20px 20px black;
+  padding-top: 110px;
+  position: relative
+}
+.gavip {
+  width: 100%;
+  height: 80px;
+  padding: 0;
+  background-color: #F2B136;
+  color: black;
+  text-align: center;
+  font-size: 13px;
+  position: absolute;
+  top: 5%;
+  left: 0%
+}
+.hangve ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  color: white;
+}
+.nutdatve {
+  background-color: black;
+  width: 40%;
+  height: 50px;
+  padding: 15px;
+  margin: 25px;
+  text-align: center;
+  ;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  color: white;
+  border-radius: 60px;
+}
+.nutdatve a {
+  color: #F2B136;
+  margin: 0;
+  padding: 0;
+  text-decoration: none
+}
+.nutdatve:hover {
+  background-color: none;
+  border: 1px solid #F2B136;
+}
+#tintuc {
+  width: 100%;
+  height: 990px;
+  padding-top: 100px;
+  background-color: #0E0D0D;
+  position: relative;
+}
+.phu {
+  width: 100%;
+  height: 300px;
+  position: absolute;
+  left: 0;
+  top: 0
+}
+.vientrang {
+  border: 1px solid #E9E9E9;
+  padding: 10px;
+  width: 100%;
+  min-height: 200px
+}
+.m-top {
+  margin-top: 50px
+}
+.col-5 p {
+  padding: 10px;
+}
+.col-5 p a {
+  color: white;
+  text-decoration: none
+}
+.col-5 p a:hover {
+  color: #F2B136
+}
+footer {
+  width: 100%;
+  min-height: 200px;
+  background-color: #E9E9E9;
+  padding: 20px;
+  margin: 0
+}
+.logo-footer {
+  width: 250px;
+  height: auto
+}
+.col-4 {
+  display: flex;
+  flex-direction: column
+}
+.col-4 p a {
+  text-decoration: none;
+}
+.col-4 p a:hover {
+  background-color: #0E0D0D;
+  color: #F2B136;
+  padding: 10px
+}
+.col-4 h1 {
+  margin-top: 0
+}
+.form-control {
+  padding: 8px;
+  margin-bottom: 10px;
+  width: 100%
+}
+.btn {
+  padding: 10px 20px;
+  background: #0E0D0D;
+  border-radius: 20px;
+  color: white;
+  cursor: pointer
+}
+.btn:hover {
+  background-color: #F2B136;
+  color: #0E0D0D
+}
+/*style trang 2*/
+.bannertrang2 {
+  position: relative;
+}
+.ynghia {
+  position: absolute;
+  top: 370px;
+  text-align: center;
+  left: 18%;
+  align-items: center;
+  justify-content: center;
+}
+#value {
+  width: 100%;
+  height: 450px;
+  background-color: #0E0D0D;
+  padding: 30px;
+  margin-top: -5px;
+}
+.vision {
+  width: 100px;
+  height: auto;
+  color: white;
+  padding-top: 40px
+}
+#ourstory {
+  width: 100%;
+  height: 500px;
+  background-color: #0E0D0D;
+  padding: 0px;
+  margin-top: 0px;
+}
+#thanhvien {
+  width: 100%;
+  min-height: 600px;
+  background-image: url("../IMG/thanhvien.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  padding: 15px;
+  margin: 0
+}
+.suyteam {
+  border: 2px solid #2D2D2D;
+  width: 100%;
+  height: 500px;
+  margin: 10px;
+  box-shadow: 20px 20px 20px black;
+}
+.m-top2{
+	margin: 70px
+}
